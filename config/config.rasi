@@ -1,0 +1,37 @@
+configuration {
+    modes: [ combi ];
+    combi-modes: [ window, drun, run ];
+}
+
+@theme "/usr/share/rofi/themes/DarkBlue.rasi"
+
+* {
+    separatorcolor: #c4a7e7;
+}
+
+entry {
+    placeholder: "Bite.";
+}
+
+entry, element-text {
+    text-color: rgb(224,222,244);
+    background-color: rgb(35,35,54);
+}
+
+element.selected.normal {
+    background-color: #eb6f92;
+}
+
+prompt {
+    text-color: rgb(224,222,244);
+}
+
+window {
+    background-color: #191724;
+    border-color: #eb6f92;
+}
+
+textbox-prompt-colon {
+    str: " >";
+    text-color: #eb6f92;
+}
