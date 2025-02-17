@@ -3,7 +3,6 @@ configuration {
     combi-modes: [ window, drun, run ];
 }
 
-@theme "/usr/share/rofi/themes/DarkBlue.rasi"
 
 * {
     separatorcolor: #c4a7e7;
